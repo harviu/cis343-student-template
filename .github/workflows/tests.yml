@@ -1,0 +1,7 @@
+name: Cumulative lab tests
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  labs:
+    uses: harviu/cis343-tests/.github/workflows/grade.yml@main

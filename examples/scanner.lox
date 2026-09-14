@@ -1,0 +1,4 @@
+// Lab 1 practice input
+var greeting = "hello";
+print greeting;
+123 + 45.67 != 0;
